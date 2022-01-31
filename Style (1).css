@@ -1,0 +1,44 @@
+body {
+  font-family: 'Mochiy Pop P One', sans-serif;;font-size: 20px; 
+  color: rgb(10, 9, 9);
+  margin:0px
+
+}
+.cover{
+  height: 400px;
+  background-image: url("https://img-global.cpcdn.com/recipes/839835de5a3084aa/1200x630cq70/photo.jpg");
+  background-position: center;
+background-size: cover;
+background-position: center;
+}
+.cover-small {
+  color:black;
+  height: 200px;
+background-blend-mode: normal;
+}
+.card {
+border: 0 !important;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.86);
+}
+.card-title {
+min-height: 3rem;
+}
+.card-text {
+min-height: 10rem;
+}
+/* Menu de imagenes */
+.product-stripe {
+overflow-x: scroll;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+.stripe-container {
+display: flex;
+}
+.stripe-container .card {
+width: 300px;
+flex-shrink: 0;
+margin-right: 1rem;
+}
+
