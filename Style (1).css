@@ -16,10 +16,34 @@ background-position: center;
   height: 200px;
 background-blend-mode: normal;
 }
+.relative{
+  position:relative;
+}
+.wave {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotateX(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(185% + 1.3px);
+    height: 104px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+}
 .card {
 border: 0 !important;
-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-  0 2px 4px -1px rgba(0, 0, 0, 0.86);
+/* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.86); */
 }
 .card-title {
 min-height: 3rem;
