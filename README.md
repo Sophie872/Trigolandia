@@ -1,2 +1,2 @@
-# Trigolandia.github.io
+# Trigolandia
 El mundo de las arepitas de Trigo
